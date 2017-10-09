@@ -1,0 +1,14 @@
+{
+  "name": "ixjs-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@micahstubbs <micah.stubbs@gmail.com> (https://twitter.com/micahstubbs)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ix": "^2.1.4"
+  }
+}
