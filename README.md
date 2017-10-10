@@ -1,3 +1,3 @@
 # ixjs-examples
 
-a set of [IxJS](https://github.com/ReactiveX/IxJS) exmaples, presented as node scripts and IJavascript Jupyter Notebooks
+a set of [IxJS](https://github.com/ReactiveX/IxJS) examples, presented as node scripts and IJavaScript Jupyter Notebooks
