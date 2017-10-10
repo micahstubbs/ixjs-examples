@@ -10,6 +10,13 @@
 // we need that for this example
 // with the `async function*` syntax
 // to run in a node environment
+// http://kangax.github.io/compat-table/esnext/#test-Asynchronous_Iterators_async_generators
+
+// in the meantime, we can transpile the code and run that
+// $ babel-node 00-methods.js 
+
+// if you want to see the transpiled output, run
+// $ babel 00-methods.js > 00-methods-transpiled.js
 
 // CommonJS
 const Ix = require('ix');
@@ -27,3 +34,5 @@ Ix.AsyncIterable.from(gen())
   .forEach(x => console.log(`Next ${x}`))
   .catch(err => console.log(`Error ${err}`));
 
+// Next 4
+// Next 8
